@@ -7,7 +7,7 @@
   bwa mem -M -R '@RG\tID:sample_1\tLB:sample_1\tPL:ILLUMINA\tpm:HISEQ\tSM:sample_1' hg19idx input_R1.fq.gz input_R2.fq.gz > input_aligned_reads.sam
 ```
 
-* Runs all the commands like from SAM format comversion to recalibration
+* Runs all the commands from SAM format comversion to recalibration
 ```
 bash align_to_recal.sh
 ```
